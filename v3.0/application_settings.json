@@ -1,7 +1,7 @@
 {
     "is_app_disabled": false,
     "is_update_nag_enabled": true,
-    "production_version_number": 1,
+    "production_version_number": 2,
     "low_watermark_version_number": 1,
     "kill_switch_message_text": "Testing my p33ps.  Go outside and play.",
     "mandatory_update_message_text": "A mandatory update is required in order for you to continue using this application.  Please forgive our mess.",
@@ -18,6 +18,10 @@
         {
             "version_code": 1,
             "changes": "* Initial Release. Feedback to support@android-fu.com greatly appreciated.<br/>* Fetch movies, refresh on scroll."
+        },
+        {
+            "version_code": 2,
+            "changes": "* Added a QuickReturnHeader for the Refresh Button.<br/>* Show an error dialog when there's a JSON parsing error."
         }
     ]
 }
